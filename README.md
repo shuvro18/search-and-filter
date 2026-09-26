@@ -2,6 +2,9 @@
 
 A modern, responsive e-commerce product catalog web application built with **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4**, and **DaisyUI**. The application integrates with the [DummyJSON API](https://dummyjson.com) to provide fast, server-rendered product browsing, keyword search, and category-based filtering.
 
+
+**Live link**: https://coruscating-frangipane-beef39.netlify.app/
+
 ---
 
 ## 🚀 Features
