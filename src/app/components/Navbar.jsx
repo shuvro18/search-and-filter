@@ -2,6 +2,7 @@
 import { Search } from 'lucide-react';
 import Link from 'next/link';
 import CategoryFilter from './CategoryFilter';
+import { Suspense } from 'react';
 
 const Navbar = () => {
 
@@ -19,7 +20,9 @@ const Navbar = () => {
                 <div className="navbar-end flex items-center  gap-2.5  ">
                     <div className="hidden md:block lg:block">
 
-                        <CategoryFilter />
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <CategoryFilter />
+                        </Suspense>
 
                     </div>
 
